@@ -73,6 +73,7 @@ Matter.Body.setStatic(bobObject1.body,false);
 
 
     Matter.Body.applyForce(bobObject1.body,bobObject1.body.position,{x:-169,y:-300});
+    
     //wait(500);
 Matter.Body.setStatic(bobObject2.body,false);
 Matter.Body.setStatic(bobObject3.body,false);
